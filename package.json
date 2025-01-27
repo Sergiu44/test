@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "npx nx run-many -t build"
+    "build": "npx nx run-many -t build",
+    "start": "npx nx run client:start && npx nx run api:serve"
   },
   "private": true,
   "dependencies": {
